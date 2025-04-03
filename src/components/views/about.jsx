@@ -12,7 +12,7 @@ function About({ howItWorksRef }) {
           <Image
             alt="about"
             src="/images/about.png"
-            className="w-full min-md:max-w-1/2 min-lg:max-w-1/3 place-self-center"
+            className="w-full place-self-center"
             width={800}
             height={800}
           />
