@@ -19,7 +19,7 @@ function Hero({ heroRef }) {
                 className={`py-3 px-3 font-semibold whitespace-nowrap w-full bg-[#662e9b] hover:bg-[##662e9bd8] rounded transition-all`}
               >
                 <a
-                  href="https://www.instagram.com/direct/t/17848285955835605"
+                  href="https://www.instagram.com/direct/t/af21.dev"
                   target="_blank"
                   className="text-white"
                 >
