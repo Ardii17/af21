@@ -4,7 +4,7 @@ import CurvaLine from "../elements/curva_line";
 function Hero({ heroRef }) {
   return (
     <section ref={heroRef} className="bg-[#f86624]">
-      <div className="h-screen flex flex-col min-lg:flex-row items-center justify-center px-4 min-md:px-12 min-lg:px-20 gap-4 min-lg:gap-0">
+      <div className="flex flex-col min-lg:flex-row items-center justify-center px-4 min-md:px-12 min-lg:px-20 gap-4 min-lg:gap-0 pt-20">
         <div className="w-full flex flex-col justify-start gap-4">
           <h1 className="text-9xl text-white font-extrabold">AF21</h1>
           <p className="text-white font-bold text-3xl">

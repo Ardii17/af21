@@ -36,7 +36,7 @@ function Navbar({
     <nav
       className={`${
         active ? "top-0" : "-top-20"
-      } fixed flex justify-between left-0 right-0 px-8 py-6 z-50 backdrop-blur-md p-6 transition-all`}
+      } fixed flex justify-between left-0 right-0 px-8 py-4 min-md:py-6 z-50 backdrop-blur-md transition-all`}
     >
       <h1 className="text-2xl text-white font-semibold">AF21</h1>
       <ul className="gap-6 items-center justify-center hidden min-md:flex">
