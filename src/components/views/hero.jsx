@@ -18,7 +18,13 @@ function Hero({ heroRef }) {
               <button
                 className={`py-3 px-3 font-semibold whitespace-nowrap w-full bg-[#662e9b] hover:bg-[##662e9bd8] rounded transition-all`}
               >
-                <p className="text-white">Contact Us</p>{" "}
+                <a
+                  href="https://www.instagram.com/direct/t/17848285955835605"
+                  target="_blank"
+                  className="text-white"
+                >
+                  Contact Us
+                </a>
               </button>
             </div>
             <div className="absolute inset-x-0 w-full -z-10 -bottom-1 h-6 bg-black/30 rounded-b"></div>
