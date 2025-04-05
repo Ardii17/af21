@@ -29,8 +29,8 @@ function WhoServe({ whoServerRef }) {
           />
           <CardWhoServe
             image="/images/ownerproducts.png"
-            title="Owner Products"
-            desc="Pemilik produk yang menjalankan promosi atau diskon khusus"
+            title="Resto / Cafe"
+            desc="Pemilik usaha khusus seperti Restoran atau Cafe yang ingin meningkatkan penjualannya"
             dataAos="fade-left"
           />
         </div>

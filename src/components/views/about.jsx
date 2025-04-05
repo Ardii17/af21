@@ -22,13 +22,13 @@ function About({ howItWorksRef }) {
           data-aos="fade-left"
         >
           <p className="text-white font-bold text-3xl">
-            The Future of Landing Page Development
+            The Future of Landing Page / Portofolio Development
           </p>
           <p className="text-white font text-lg">
-            Need a fast, responsive, and high-converting landing page? Welcome!
-            We are AF21, your trusted partner for professional landing page
-            creation at a flat monthly fee. We bring modern solutions to your
-            digital needs.
+            Perlu halaman arahan yang cepat, responsif, dan memiliki tingkat
+            konversi tinggi? Selamat datang! Kami adalah AF21, mitra terpercaya
+            Anda untuk pembuatan halaman arahan profesional dengan biaya bulanan
+            tetap. Kami membawa solusi modern untuk kebutuhan digital Anda.
           </p>
         </div>
       </div>
@@ -44,29 +44,17 @@ function About({ howItWorksRef }) {
           <CardHowItWorks
             image="/images/plan.png"
             title="Plan"
-            desc="Kami memulai dengan memahami kebutuhan dan tujuan bisnis Anda.
-                  Bersama, kita akan mendiskusikan konsep desain, struktur
-                  halaman, dan fitur yang dibutuhkan. Setelah itu, kami membuat
-                  wireframe awal agar Anda bisa melihat gambaran visual sebelum
-                  proses pengembangan dimulai."
+            desc="Kami memulai dengan diskusi dan konsultasi untuk memahami kebutuhan website Anda, lalu menentukan konsep desain yang sesuai. Setelah itu, kami bantu memilih fitur dan elemen penting agar website tampil optimal dan fungsional sesuai tujuan Anda."
           />
           <CardHowItWorks
             image="/images/build.png"
             title="Build"
-            desc="Tim kami mulai mengembangkan landing page sesuai dengan konsep
-                  yang telah disepakati. Kami memastikan desain responsif,
-                  performa optimal, dan integrasi fitur seperti formulir,
-                  animasi, atau API berjalan dengan baik. Setelah tahap ini
-                  selesai, kami akan memberikan preview untuk Anda tinjau."
+            desc="Proses dimulai dengan pembuatan website, termasuk desain dan pengembangan landing page atau portofolio. Setelah itu, kami memastikan tampilan responsif di berbagai perangkat dan memberikan kesempatan revisi jika ada perubahan yang diperlukan."
           />
           <CardHowItWorks
             image="/images/plan.png"
             title="Launch"
-            desc="Setelah melakukan revisi dan penyempurnaan berdasarkan masukan
-                  Anda, landing page siap untuk dipublikasikan. Kami akan
-                  membantu proses deployment, optimasi kecepatan, dan memastikan
-                  semuanya berjalan dengan lancar. Kini, landing page Anda siap
-                  digunakan untuk menarik lebih banyak pelanggan! 🚀"
+            desc="Website yang telah selesai akan langsung dihosting dan siap digunakan, dengan landing page atau portofolio online. Kami juga membantu proses indexing di Google agar mudah ditemukan, serta menyediakan panduan penggunaan website. 🚀"
           />
         </div>
       </div>
