@@ -7,6 +7,7 @@ import Advantages from "../views/advantages";
 import Pricing from "../views/pricing";
 import { useEffect, useRef } from "react";
 import Aos from "aos";
+import Footer from "../views/footer";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -38,6 +39,13 @@ function AppShell() {
       <WhoServe whoServerRef={whoServerRef} />
       <Advantages advantagesRef={advantagesRef} />
       <Pricing pricingRef={pricingRef} />
+      <Footer
+        heroRef={heroRef}
+        howItWorksRef={howItWorksRef}
+        whoServerRef={whoServerRef}
+        advantagesRef={advantagesRef}
+        pricingRef={pricingRef}
+      />
     </section>
   );
 }

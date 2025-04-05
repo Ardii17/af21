@@ -2,6 +2,8 @@ import Image from "next/image";
 import CurvaLine from "../elements/curva_line";
 
 function Hero({ heroRef }) {
+  const teks = "Hallo, Saya tertarik dengan Jasa anda";
+
   return (
     <section ref={heroRef} className="bg-[#f86624]">
       <div className="min-h-screen flex flex-col min-lg:flex-row items-center justify-center px-4 min-md:px-12 min-lg:px-20 gap-4 min-lg:gap-0 pt-20 min-md:py-0">
@@ -16,15 +18,15 @@ function Hero({ heroRef }) {
           <div className="relative z-10 w-1/3">
             <div className="w-full z-10 rounded hover:translate-y-1 transition-all">
               <button
+                onClick={() =>
+                  window.open(
+                    `https://wa.me/6289684253334?text=${teks}`,
+                    "_blank"
+                  )
+                }
                 className={`py-3 px-3 font-semibold whitespace-nowrap w-full bg-[#662e9b] hover:bg-[##662e9bd8] rounded transition-all`}
               >
-                <a
-                  href="https://www.instagram.com/direct/t/af21.dev"
-                  target="_blank"
-                  className="text-white"
-                >
-                  Contact Us
-                </a>
+                <p className="text-white">Contact Us</p>
               </button>
             </div>
             <div className="absolute inset-x-0 w-full -z-10 -bottom-1 h-6 bg-black/30 rounded-b"></div>

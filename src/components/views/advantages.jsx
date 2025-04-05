@@ -13,25 +13,26 @@ function Advantages({ advantagesRef }) {
             Our Advantages
           </p>
           <p className="text-white">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
-            doloremque impedit in? Reiciendis cumque reprehenderit, perspiciatis
-            ratione eaque a ab.
+            Kami menawarkan solusi desain web profesional yang unik, responsif,
+            dan terjangkau. Dengan tampilan eksklusif, performa optimal, serta
+            harga yang bersaing, website Anda akan lebih menonjol dan memberikan
+            pengalaman terbaik bagi pengunjung.
           </p>
           <div className="flex flex-col gap-4">
             <ListAdvantages
               number="1"
-              title="Lorem ipsum dolor sit amet."
-              desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, incidunt."
+              title="Desain Eksklusif"
+              desc="Kami tidak menggunakan template standar. Setiap website yang kami buat bersifat unik dan disesuaikan dengan identitas merek Anda, memastikan Anda tampil berbeda dari kompetitor."
             />
             <ListAdvantages
               number="2"
-              title="Lorem ipsum dolor sit amet."
-              desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, incidunt."
+              title="Responsif & Performa Optimal"
+              desc="Semua landing page dan portofolio kami kompatibel dengan berbagai perangkat (desktop, tablet, dan mobile) dengan waktu loading yang cepat untuk pengalaman pengguna terbaik."
             />
             <ListAdvantages
               number="3"
-              title="Lorem ipsum dolor sit amet."
-              desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, incidunt."
+              title="Harga Bersaing"
+              desc="Dengan investasi Rp500.000, Anda mendapatkan satu halaman landing page atau portofolio profesional"
             />
           </div>
         </div>
